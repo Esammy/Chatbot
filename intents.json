@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "greetings", "Good afternoon sir", "Good day sir", "Hello sir","Good morning sir", "Good evening sir"],
+     "responses": ["Hello", "Hi", "Hi there","How are you doing"]
+    },
+    {"tag":"greeting response",
+      "patterns": ["I am fine", "I'm fine", "Great","Splendid","Awesome"],
+      "responses": ["Great, how may i help you", "Interesting, how may i help you", "Beautiful, how may i help you", "Nice, how may i help you"]
+    },
+    {"tag": "greeting questions",
+      "patterns": ["how are you?", "how are you doing?", "Hope you're good?", "hope you are are well?"],
+      "responses": ["I am good","i'm good", "Never been better","Doing great, thank you for asking"]
+
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Bye bye", "take care"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again","Bye take care"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Alright sir, thank you"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!","You are most welcome"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "tell me about yourself"],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?","what can i call you?", "my name is ", "I'm by name ", "I am by name"],
+    "responses": ["You can call me Tracy.", "I'm Tracy!", "Just call me as Tracy", "Oh yeah, my name is Tracy"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, how can I support you","sure i'd love to. what's the challenge"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag":"advice",
+    "patterns": ["sir, please i need your advice", "can you advice me on something sir","sir, i have a problem that i need to talk to you about"],
+    "responses": ["sure, what is the problem", "sure, that's if i can", "No problem. can i know what the problem is","smiles. that's what i'm here for. go on please"]
+    },
+    {"tag": "course reg",
+    "patterns": ["registration","I want to do my course registration","I want to do my course reg"],
+    "responses": ["Nothing to talk about course registration yet"]
+    }
+]
+}
