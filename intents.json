@@ -40,9 +40,301 @@
     "patterns": ["sir, please i need your advice", "can you advice me on something sir","sir, i have a problem that i need to talk to you about"],
     "responses": ["sure, what is the problem", "sure, that's if i can", "No problem. can i know what the problem is","smiles. that's what i'm here for. go on please"]
     },
-    {"tag": "course reg",
+    {"tag": "course registration",
     "patterns": ["registration","I want to do my course registration","I want to do my course reg"],
-    "responses": ["Nothing to talk about course registration yet"]
+    "responses": ["Visit the University’s E-result portal by searching “eresult futminna” on your search engine. Login using your Student ID and Password then click on course registration and Select New Course Registration then proceed to register for courses specified by your Level Adviser."]
+    },
+    {"tag": "change department",
+    "patterns": ["Change Department","How do I change my department","I want to change to another department"],
+    "responses": ["Department change can only be made after 100 level and only at the university’s recommendation. "]
+    },
+    {"tag": "wrong course selected",
+    "patterns": ["How do I change a course I had selected wrongly","change a selected course"],
+    "responses": ["Visit the University’s E-result portal by searching “eresult futminna” on your search engine. Login using your Student ID and Password then click on course registration Select New Course Registration then proceed to register for the ‘correct’ courses. "]
+    },
+    {"tag": "test",
+    "patterns": ["When will the test commence","When will the test start"],
+    "responses": ["Please reach out to your Class Rep for information on Test commencement."]
+    },
+    {"tag": "exam",
+    "patterns": ["When will the exam commence","When will the exam start"],
+    "responses": ["The exam Timetable is provided by your Faculty Examination officer. Please visit your department and School exam notice board for approved exam timetables and commencement schedules."]
+    },
+    {"tag": "Schorlaship",
+    "patterns": ["Is there any scholarship available ","How do I apply for scholarships "],
+    "responses": ["To apply for scholarships, search for available opportunities provided by companies, organizations, and foundations, and carefully follow the application process as specified by each scholarship provider. Start your search early to increase your chances of success.","Yes, Scholarships and Bursaries are available and funded by Organizations and individual State Scholarship Boards. Each Scholarship has distinct application processes. Further information can be found on third-party scholarship sites such as myscholarship.ng "]
+    },
+    {"tag": "Hostel accomodation",
+    "patterns": ["How do i book for hostel accomodation?","Can you help me book for hostel accomodation?"],
+    "responses": ["Hostel Accommodations are available for students on a first-to-pay basis. Upon the start of a new calendar session, the payment portal is opened for accommodation fee payment i.e., E-portal futminna"]
+    },
+    {"tag": "off-campus accomodation",
+    "patterns": ["How can i get off-campus accomodation?","can you help me book for off-campus accomodation?"],
+    "responses": ["The exam Timetable is provided by your Faculty Examination officer. Please visit your department and School exam notice board for approved exam timetables and commencement schedules."]
+    },
+    {"tag": "Level advicer",
+    "patterns": ["How can I meet my level adviser", "How can I reach my level of adviser "],
+    "responses": ["Level advisers can be met at your department staff office.", "You may reach out to your level adviser by locating their office in the faculty during designated advising hours."]
+    },
+    {"tag": "meeting advicer",
+    "patterns": ["I want to meet with the level advicer","I want to schedule a meeting with my level adviser"],
+    "responses": ["Please proceed to your Level adviser’s office during designated advising hours for one-on-one sessions with your adviser."]
+    },
+    {"tag": "Result issue",
+    "patterns": ["I was given a wrong grade on a course","What is the right way to follow up on a failed course?", "My results need to be corrected","wrong result", "What do I do if  I want to challenge my results?", "How can I report an inaccurate result", "There is a problem with my result"],
+    "responses": ["Please reach out directly  to the Exam officer for your department regarding any grade related issues","you will need to take the necessary steps to complete the coursework in the next semester or academic year. You should consult with your Level advisor to discuss your options, including registering for the course for the next semester, arranging for an independent study, or finding alternative ways to fulfil the credit requirements. It's important to address the carryover as soon as possible to stay on track for graduation.", "Please reach out to your departmental exam officer with regards to any complaints on results."]
+    },
+    {"tag": "departmental due",
+    "patterns": ["How can I pay for my departmental dues","where do i pay my due"],
+    "responses": ["Departmental Dues are paid into each department’s Microfinance bank account. Please Visit your departmental association’s office for payment details."]
+    },
+    {"tag": "exam officer",
+    "patterns": ["How can I reach my exam officer"],
+    "responses": ["You may reach your exam officer in the exam officer’s office for your department. Further information can be gotten on direction from your Class Representative."]
+    },
+    {"tag": "submit course registration",
+    "patterns": ["How do I submit my course registration"],
+    "responses": ["Courses registered on the E-portal platform according to the recommendations of your Level Adviser are to be printed and submitted to your adviser’s office for validation."]
+    },
+    {"tag": "8/6/6",
+    "patterns": ["What is 8/6/6"],
+    "responses": ["This is the University’s Academic policy for New Engineering students on campus. New Students in the engineering Faculty must at the end of their first year have passed 8 credits of Mathematics, 6 credits of Physics and 6 Credits of Chemistry to remain, Bonafede members of the faculty else, they are transferred to other faculties."]
+    },
+    {"tag": "10/8/8",
+    "patterns": ["What is 10/8/8"],
+    "responses": ["This was the University’s Academic policy for New Engineering students on campus. New Students in engineering were expected at the time to pass 10 credits of Mathematics, 8 credits of Physics and 8 Credits of Chemistry to remain, Bonafede members of the faculty else, they were transferred to other faculties. The policy has however reviewed to 8.6.6."]
+    },
+    {"tag": "school fees",
+    "patterns": ["I want to pay my school fees ", "How do i pay my school fees"],
+    "responses": ["School fee payment can be made through the university’s E-Portal."]
+    },
+    {"tag": "CGPA calculation",
+    "patterns": ["How do you calculate your CGPA", "How do i calculate my CGPA"],
+    "responses": ["To calculate your CGPA, you need to: Assign grade points to each letter grade you received (A=5, B=4, C=3, D=2, E=1, F=0 or 10); Multiply the grade points by the number of credits for each course then add up the grade points for all courses to find the total grade points. Finally Divide the total grade points by the total number of credits to find your CGPA."]
+    },
+    {"tag": "credit unit",
+    "patterns": ["What is a credit unit"],
+    "responses": ["A credit unit in a university is a unit of measurement for a student's coursework, typically representing one hour of class time"]
+    },
+    {"tag": "GPA",
+    "patterns": ["What is semestrial GPA"],
+    "responses": ["No info yet"]
+    },
+    {"tag": "Green file",
+    "patterns": ["Where do I submit my green file "],
+    "responses": ["Green files are to be submitted to your Level Adviser in His/her Office."]
+    },
+    {"tag": "ID card",
+    "patterns": ["How do I get my ID card"],
+    "responses": ["Identity Cards (ID) are Gotten from the Student Affairs office located on the first floor of the University’s sports complex."]
+    },
+    {"tag": "Lost ID card",
+    "patterns": ["What to do if I lose my ID card"],
+    "responses": ["Please visit the university’s security unit and report your Identity card as missing. Follow the procedures given to you regarding card recovery."]
+    },
+    {"tag": "Clinic",
+    "patterns": ["How do I access the school clinic"],
+    "responses": ["You can access the university’s clinic with your Clinic Card. If peradventure you do not have one, you will be guided on how to get one and access free health consultations and check-ups"]
+    },
+    {"tag": "sick",
+    "patterns": ["I am sick", "i am not feeling fine", "i am not well"],
+    "responses": ["Please visit the university’s clinic immediately for Health attention. Ensure you go with your Clinic card; If peradventure you do not have one, you will be guided on how to get one.  Wishing you a quick recovery!"]
+    },
+    {"tag": "next session",
+    "patterns": ["What courses are we offering next session?"],
+    "responses": ["Next semester's courses can be found with each course outline in your departmental handbook."]
+    },
+    {"tag": "IGS",
+    "patterns": ["What is IGS mean?"],
+    "responses": ["In Good Stand means that you do not have any academic issues at the moment "]
+    },
+    {"tag": "VC list",
+    "patterns": ["What does VC List mean?"],
+    "responses": ["Students in first class (4.5 -5.0) are added to the university’s Vice Chancellor’s list of students which comes with honorariums typically at the beginning of each new session."]
+    },
+    {"tag": "Dean's list",
+    "patterns": ["What does the dean list mean (DL)?"],
+    "responses": ["Students with 4.0 – 4.5 are added to their respective Dean’s list of students for recognition of their academic accomplishments."]
+    },
+    {"tag": "SWEP",
+    "patterns": ["What is SWEP?", "when do SWEP program begins?", "Do i need to go home and come back prepared for the SWEP?"],
+    "responses": ["Going home is totally a personal choice. Besides it starts few weeks after exams so if you want to go you can.", " SWEP program begins few weeks after second semester exams","SWEP is Student Work Experience Program. It is a 10 weeks program for 200-level students designed to provide students with practical work experience in their field of study. The goal of the program is to help students gain hands-on, real-world experience in their chosen field, while also helping to prepare them for careers after graduation."]
+    },
+    {"tag": "WiFi",
+    "patterns": ["Where can I get the WiFi password", "How do I get wifi login details?", "i need a wifi login"],
+    "responses": ["WIFI login details are provided by the university’s Information Technology Service (ITS). Please visit the ITS and request your Internet login details."]
+    },
+    {"tag": "Library",
+    "patterns": ["When does the library open?"],
+    "responses": ["The university Library opens up at 9 AM Monday through Friday."]
+    },
+    {"tag": "access library",
+    "patterns": ["What do I need to access the library?"],
+    "responses": ["You only need your student Identity card to access the library."]
+    },
+    {"tag": "SUG",
+    "patterns": ["How can I reach the SUG government?","How do I join SUG?"],
+    "responses": ["Reach out to the existing leadership of the SUG on the processes involving joining the student leadership.","The Student Union Government can be contacted via their public relations officer."]
+    },
+    {"tag": "bosso to gk",
+    "patterns": ["What is the best way to get from one campus to the other?"],
+    "responses": ["The university operates affordable Bus shuttles between campuses running on weekdays Monday through Friday."]
+    },
+    {"tag": "food",
+    "patterns": ["Where do students go to buy food?","i want to buy food", "let me go get food"],
+    "responses": ["Meals can be bought from restaurants and cafeterias scattered across campus."]
+    },
+    {"tag": "Restorant",
+    "patterns": ["What restaurants are available near GK? What do they serve?", "What restaurants are near Bosso? What do they serve?"],
+    "responses": ["Chicken republic, Domino and Iya Femi are restaurants close to the Bosso Campus.", "ASSADEL, UNIQUE AND DELIGHT are some of the restaurants available for meals near Gidan Kwanu"]
+    },
+    {"tag": "Vote",
+    "patterns": ["I keep getting asked to vote for so and so.", "Why should I participate in the student government?"],
+    "responses": ["You should participate in student government to have a voice in important decisions and to shape the university experience for yourself and others. Additionally, participating in student government can help you develop valuable leadership skills and improve your resume for future career opportunities."]
+    },
+    {"tag": "Carryover",
+    "patterns": ["What are carryovers?"],
+    "responses": ["Carryovers refer to credit hours or courses that a student has not yet completed or failed but still needs to take to fulfil degree requirements. These carryovers are usually transferred to the next academic year or semester, hence the term 'carryover.' "]
+    },
+    {"tag": "probation",
+    "patterns": ["What does it mean to be on probation?"],
+    "responses": ["Being on probation means that a student is not meeting the academic standards set by the university. Probation is usually a warning status that signals the student to improve their academic performance or face more serious consequences, such as suspension or dismissal from the university."]
+    },
+    {"tag": "Repeat level",
+    "patterns": ["Can I repeat a level like in secondary school?"],
+    "responses": ["In university, you typically cannot repeat a level or year as you can in secondary school. However, if you are struggling with your courses, you may be allowed to retake certain exams or resubmit coursework to improve your grades. "]
+    },
+    {"tag": "change department",
+    "patterns": ["How possible is it to switch majors in your first year?"],
+    "responses": ["Department change can only be made after 100 level and only at the university’s recommendation. "]
+    },
+    {"tag": "major",
+    "patterns": ["Is it possible to do a Major (Program/Course) and Minor (program/Course) while on Campus?"],
+    "responses": ["No. FUTMINNA allows for only a single degree enrollment at a time."]
+    },
+    {"tag": "Excursions",
+    "patterns": ["Do students go on excursions to University?"],
+    "responses": ["Yes, excursions may be organized by individual departments and faculties for students at a cost."]
+    },
+    {"tag": "fee issue",
+    "patterns": ["My school fee payment didn't go through"],
+    "responses": ["Please reach out via mail to ITS or visit the ITS office located opposite the university’s library."]
+    },
+    {"tag": "SWEP preparation",
+    "patterns": ["What do you mean by Faculty courses?", "What do you mean by general courses?"],
+    "responses": ["These are courses offered by a faculty for the entire departments within that faculty."]
+    },
+    {"tag": "Hardwork",
+    "patterns": ["I got moved to another faculty. How do I cope?"],
+    "responses": ["You will cope; you just need to be more studious and hardworking in your academics. Also, reach out to your Level Adviser if you need additional help"]
+    },
+    {"tag": "Carryover solution",
+    "patterns": ["I got a carryover. How do I handle it?"],
+    "responses": ["you will need to take the necessary steps to complete the coursework in the next semester or academic year. You should consult with your Level advisor to discuss your options, including scheduling the course for the next semester, arranging for an independent study, or finding alternative ways to fulfil the credit requirements. It's important to address the carryover as soon as possible to stay on track for graduation."]
+    },
+    {"tag": "Not CBT",
+    "patterns": ["What are the etiquettes for handwritten tests and exams?"],
+    "responses": ["write legibly, avoid exam malpractice, and follow the instructions given by the exam proctor. Remember to stay calm and focused during the exam."]
+    },
+    {"tag": "Tutorials",
+    "patterns": ["I’m thinking of extracurricular activities. How do I join a school club or student body?"],
+    "responses": [" Most organizations and clubs or societies have a sign-up process; after deciding on the club to join, ensure you follow their sign-up procedure."]
+    },
+    {"tag": "SUG Criteria",
+    "patterns": ["Criterials for joining SUG", "what do i need to join SUG"],
+    "responses": ["You need to be in good academic standing and state your interest in the post by purchasing the role’s form from the associated existing management."]
+    },
+    {"tag": "Good CGPA",
+    "patterns": ["How do I maintain a good CGPA concerning the stressful demands of 200 Level?"],
+    "responses": ["To maintain a good CGPA in the demanding second year of university, prioritize your coursework and set achievable goals, make use of available resources such as office hours and tutoring, and manage stress through self-care and time management."]
+    },
+    {"tag": "Departmental course",
+    "patterns": ["What are departmental courses?"],
+    "responses": ["Departmental courses are courses specific to a particular department offered within the university. These courses are usually required for students within that department."]
+    },
+    {"tag": "Prerequisite course",
+    "patterns": ["What are prerequisite courses?","How do I get my university graduate transcripts?"],
+    "responses": ["Yes you can. The procedure for this can be found by directly contacting your Level adviser or Exam officer."]
+    },
+    {"tag": "Transcript",
+    "patterns": ["Can I request my transcript before the school's issuance "],
+    "responses": ["Yes you can. The procedure for this can be found by directly contacting your Level adviser or Exam officer."]
+    },
+    {"tag": "Electives",
+    "patterns": ["What are elective courses?"],
+    "responses": ["Elective courses are courses that you can choose to take based on your interests or academic needs. They allow you to broaden your knowledge in areas beyond your major."]
+    },
+    {"tag": "IT issues",
+    "patterns": ["Why can't I go on industrial training with my colleagues?","I need a place for my Internship/IT"],
+    "responses": ["You may not be able to go for IT with your colleagues if you have more than 8 credit units of carryover outstanding."]
+    },
+    {"tag": "Repeat IT",
+    "patterns": ["Can I repeat industrial training (IT)?", "Can I fail IT?", "What will happen if I don't participate in industrial training?"],
+    "responses": ["When seeking a company for an internship, you should select locations that deal with industries similar to your course of study. If you require further assistance in finding internship placement, reach out to your departmental IT coordinator for guidance and suggestions.","Yes, it is possible.","You fail and will incur an extra year.", "It is possible only for rare cases where it has been determined that your previous IT did not meet the bare minimum required of the Industrial Training program."]
+    },
+    {"tag": "Project supervisor",
+    "patterns": ["Can I change my project supervisor?"],
+    "responses": ["A change of Project Supervisor is possible in special cases. You can make your case to the Project Coordinator for your Department giving the reason for the need for a change."]
+    },
+    {"tag": "Project Topic",
+    "patterns": ["How can choose a project that aligns with my career goals?","I need guidance on picking a good project title", "Can I pick a project topic?"],
+    "responses": ["Choose a project topic that aligns with your interests, skills, and career goals. Research current industry trends and explore areas where you can make a unique contribution."," yes you can","You can make your research for suitable project topics by reading papers related to your course and reviewing existing works for inspiration and opportunities for advancing existing projects. Also, do well to speak with your project supervisor for guidance."]
+    },
+    {"tag": "Fail Final Year",
+    "patterns": ["What happens if I fail just one course in my final year?"],
+    "responses": ["To choose a project that aligns with your career goals, consider your interests, strengths, and future aspirations. Look for a project that allows you to apply and develop skills relevant to your desired career path.","Depending on the university’s current policy and discretion, a single failed course may be ‘waived’. Please reach out to your exam officer or level adviser for more information."]
+    },
+    {"tag": "Health issue",
+    "patterns": ["What should I do if miss an exam due to my health?"],
+    "responses": ["Reach out to your level adviser with a doctor’s report and inform him of the fact that you missed an exam. Provisions may be made on your behalf on a case-by-case basis."]
+    },
+    {"tag": "current level",
+    "patterns": ["What do I need to know about my current level?"],
+    "responses": ["Irrespective of your level you need to spend more time on your study and attend classes to excel in your academic pursuit"]
+    },
+    {"tag": "Calender",
+    "patterns": ["Can you help me understand the academic calendar?","Any advice on my current academic performance?","How can I get support for academic or personal difficulties?"],
+    "responses": ["Please schedule an appointment with the Level adviser to get more in-depth on your current academic standing and personalized suggestions","I am sad to hear that you are having difficulties; please schedule a session with the level adviser to see how we can sort out your difficulties.","The academic calendar suggests that there will between 10-14 weeks of lectures and exams afterwards; however, within the lecture duration, tests and quizzes will take place."]
+    },
+    {"tag": "Graduate Opportunites",
+    "patterns": ["I need information on graduate opportunities"],
+    "responses": ["There are a lot of opportunities after graduation including post-graduate degrees. You may want to visit the university’s postgraduate website for more information concerning this."]
+    },
+    {"tag": "Part-time",
+    "patterns": ["Are there any opportunities for part-time or on-campus employment?"],
+    "responses": ["Unfortunately, there are no official opportunities for on-campus employment."]
+    },
+    {"tag": "GYM",
+    "patterns": ["How do I access the gym on campus?"],
+    "responses": ["To access the gym, you are expected to register at the sport’s complex on your interest in using the gym facilities "]
+    },
+    {"tag": "Student connect",
+    "patterns": ["How do I join an association on campus?","How do I connect with other students on campus?"],
+    "responses": ["To join an association on campus, research available options that align with your interests, attend informational meetings and events, and complete the required membership forms and fees. Building relationships with current members and participating in events and activities can help you fully engage with the organization and make the most of your membership.","Join student organizations and clubs that align with your interests, attend campus events and activities, and participate in online groups or forums related to your major or interests to connect with other students on campus. Networking can also help you build lasting relationships and professional connections."]
+    },
+    {"tag": "Leadership",
+    "patterns": ["How do I apply for leadership positions on campus?","Can you provide information on the university's policies and procedures related to academic integrity?"],
+    "responses": ["The university has policies and procedures in place to ensure academic integrity and to prevent academic misconduct, such as plagiarism, cheating, and fabrication. These policies are outlined in the university's student handbook and can also be obtained from the academic affairs or student affairs office. All students are expected to adhere to these policies to maintain the university's standards of academic excellence.","To apply for leadership positions on campus, research the available opportunities and their requirements, prepare a strong application, and attend informational meetings or events to learn more about the position and organization."]
+    },
+    {"tag": "Accomodation",
+    "patterns": ["How do I get a lodge off campus?"],
+    "responses": ["To get a lodge off campus, start by researching available options in the vicinity, visit the lodges in person to assess their condition, and negotiate the terms and conditions with the landlord or property manager. Consider factors such as proximity to campus, cost, and security before making a decision."]
+    },
+    {"tag": "Therapy",
+    "patterns": ["How do I access therapy service?"],
+    "responses": ["To access therapy services, contact the university's student wellness center or student health services to schedule an appointment with a mental health professional. You may also be able to access online resources and support services for mental health and well-being. Confidentiality and privacy are maintained in accordance with the university's policies and regulations."]
+    },
+    {"tag": "Disabilities",
+    "patterns": ["Is there any support for students with disabilities?"],
+    "responses": ["Yes, go to the level advicer for more information"]
+    },
+    {"tag": "Tutorials",
+    "patterns": ["I’m thinking of extracurricular activities. How do I join a school club or student body?"],
+    "responses": [""]
+    },
+    {"tag": "Tutorials",
+    "patterns": ["I’m thinking of extracurricular activities. How do I join a school club or student body?"],
+    "responses": ["Answer: Most organizations and clubs or societies have a sign-up process; after deciding on the club to join, ensure you follow their sign-up procedure."]
     }
 ]
 }
