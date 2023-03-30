@@ -4,24 +4,17 @@ lemmatizer = WordNetLemmatizer()
 import json
 import pickle
 
-# Credits
-# https://buffml.com/web-based-chatbot-using-flask-api/
-
-
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 import random
 
-nltk.download('wordnet')
-nltk.download('punkt', quiet= True)
-
 words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open('intents.json').read()
+data_file = open('Updatedintent.json', encoding='utf-8').read()
 intents = json.loads(data_file)
 
 
@@ -99,6 +92,6 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 
 #fitting and saving the model 
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
-model.save('chat_model.h5', hist)
+model.save('model.h5', hist)
 
 print("model created")

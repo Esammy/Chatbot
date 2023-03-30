@@ -1,0 +1,333 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "greetings", "Good afternoon sir", "Good day sir", "Hello sir","Good morning sir", "Good evening sir"],
+     "responses": ["Hello", "Hi", "Hi there","How are you doing"]
+    },
+    {"tag":"greeting response",
+      "patterns": ["I am fine", "I'm fine", "Great","Splendid","Awesome"],
+      "responses": ["Great, how may i help you", "Interesting, how may i help you", "Beautiful, how may i help you", "Nice, how may i help you"]
+    },
+    {"tag": "greeting questions",
+      "patterns": ["how are you?", "how are you doing?", "Hope you're good?", "hope you are are well?"],
+      "responses": ["I am good","i'm good", "Never been better","Doing great, thank you for asking"]
+
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Bye bye", "take care"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again","Bye take care"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Alright sir, thank you"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!","You are most welcome"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "tell me about yourself"],
+     "responses": ["I.m UNIVA, your university student assistant", "I'm UNIVA, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?","what can i call you?", "my name is ", "I'm by name ", "I am by name"],
+    "responses": ["You can call me UNIVA.", "I'm UNIVA!", "Just call me as UNIVA", "Oh yeah, my name is UNIVA"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, how can I support you","sure i'd love to. what's the challenge"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag":"advice",
+    "patterns": ["sir, please i need your advice", "i need some advice", "plase guide me", "can you advice me on something sir","sir, i have a problem that i need to talk to you about"],
+    "responses": ["sure, what is the problem", "sure, that's if i can", "No problem. can i know what the problem is","smiles. that's what i'm here for. go on please"]
+    },
+    {"tag": "course registration",
+    "patterns": ["registration","I want to do my course registration","how do i go about course reg?", "i need to register courses", "I want to do my course reg"],
+    "responses": ["Visit the University’s E-result portal by searching “eresult futminna” on your search engine. Login using your Student ID and Password then click on course registration and Select New Course Registration then proceed to register for courses specified by your Level Adviser."]
+    },
+    {"tag": "change department",
+    "patterns": ["Change Department", "i want to change departments","how  can i change department?", "How do I change my department","I want to change to another department"],
+    "responses": ["Department change can only be made after 100 level and only at the university’s recommendation. "]
+    },
+    {"tag": "wrong course selected",
+    "patterns": ["How do I change a course I had selected wrongly", "i made a mistake in my course reg", "i selected wrong courses in my course registration", "change a selected course"],
+    "responses": ["Visit the University’s E-result portal by searching “eresult futminna” on your search engine. Login using your Student ID and Password then click on course registration Select New Course Registration then proceed to register for the ‘correct’ courses. "]
+    },
+    {"tag": "test",
+    "patterns": ["When will the test commence", "how do i get information regarding tests", "When will the test start"],
+    "responses": ["Please reach out to your Class Rep for information on Test commencement."]
+    },
+    {"tag": "exam",
+    "patterns": ["When will the exam commence", "When will the exam start", "What is the date for the final exam?", "Can I bring a calculator to the exam?"],
+    "responses": ["The exam Timetable is provided by your Faculty Examination officer. Please visit your department and School exam notice board for approved exam timetables and commencement schedules.", "The final exam date will be announced by your faculty examination officer. Please check your department and school notice boards regularly for updates.", "Yes, you may be allowed to use a calculator during the exam. However, please confirm with your course instructor or examination officer for any specific guidelines or restrictions."]
+    },
+    {"tag": "Scholarship",
+    "patterns": ["Is there any scholarship available?", "How do I apply for scholarships?", "What are the requirements for a scholarship?", "When is the deadline to apply for scholarships?"],
+    "responses": [ "To apply for scholarships, search for available opportunities provided by companies, organizations, and foundations, and carefully follow the application process as specified by each scholarship provider. Start your search early to increase your chances of success.", "Yes, Scholarships and Bursaries are available and funded by Organizations and individual State Scholarship Boards. Each Scholarship has distinct application processes. Further information can be found on third-party scholarship sites such as myscholarship.ng.", "Scholarship requirements vary by provider and program. Generally, scholarships require academic achievement, community involvement, leadership skills, and other qualifications. Please check the specific requirements of each scholarship you are interested in applying for.", "The deadline for scholarship applications varies by provider and program. Be sure to check the application deadline for each scholarship you are interested in and submit your application well before the deadline."]
+    },
+    {"tag": "Hostel Accommodation",
+    "patterns": ["How do I book for hostel accommodation?", "Can you help me book for hostel accommodation?", "What is the cost of hostel accommodation?", "When does hostel accommodation payment start?", "Can I choose my roommates in the hostel?", "Is there a deadline for hostel accommodation payment?"],
+    "responses": ["Hostel accommodations are available for students on a first-to-pay basis. Upon the start of a new academic session, the payment portal is opened for accommodation fee payment. You can visit the E-portal of your institution to make payment and book your accommodation.", "Hostel accommodations are available for students on a first-to-pay basis. Unfortunately, I cannot help you book for hostel accommodation. You can visit the E-portal of your institution to make payment and book your accommodation.", "The cost of hostel accommodation varies depending on the type of room and the institution. Please check with your institution for more information.", "The payment portal for hostel accommodation usually opens at the start of each academic session. Please check with your institution for the exact date.", "You may be able to choose your roommates in some institutions. Please check with your institution for their specific policy on roommates.", "Yes, there is usually a deadline for hostel accommodation payment. Please check with your institution for the payment deadline and be sure to make payment before the deadline."]
+    },
+    {"tag": "Off-Campus Accommodation",
+    "patterns": ["How can I get off-campus accommodation?", "Can you help me book for off-campus accommodation?", "Where can I find listings for off-campus accommodation?", "What are some tips for finding off-campus accommodation?", "Is it cheaper to live off-campus than on-campus?", "What should I look for when inspecting off-campus accommodation?", "What are the pros and cons of living off-campus?"],
+    "responses": ["I'm sorry, but I cannot help you book for off-campus accommodation. You can try searching online for rental listings or contact a local real estate agent for assistance in finding off-campus accommodation.", "There are many websites where you can find listings for off-campus accommodation, such as Craigslist, Zillow, and Rent.com.", "Some tips for finding off-campus accommodation include starting your search early, setting a budget, visiting the area to get a sense of the neighborhood, and checking the condition of the property before signing a lease.", "Living off-campus can be cheaper than living on-campus in some cases, but it depends on the area and the cost of living. You should compare the cost of on-campus housing to the cost of off-campus housing to determine which option is more affordable.", "When inspecting off-campus accommodation, you should look for signs of damage, such as cracks in the walls or ceiling, water damage, or pests. You should also check that all appliances and utilities are in working order.", "The pros of living off-campus include more independence, more space, and more privacy. The cons include a potentially longer commute, additional expenses such as utilities and groceries, and a lack of access to on-campus resources and events."]
+    },
+    {"tag": "Level Adviser",
+    "patterns": ["How can I meet my level adviser?", "How can I reach my level adviser?", "When can I schedule an appointment with my level adviser?", "Where can I find my level adviser's contact information?", "What can I do if I can't meet with my level adviser during their office hours?", "Can I request to switch level advisers?", "I want to meet with the level advicer","I want to schedule a meeting with my level adviser"],
+    "responses": ["You can meet your level adviser at your department staff office or during their designated advising hours. Check your department's website or ask your academic advisor for more information.", "You can reach your level adviser by visiting their office during designated advising hours or contacting them through their preferred method of communication, such as email or phone.", "You may be able to schedule an appointment with your level adviser through an online booking system or by contacting their office directly.", "You can usually find your level adviser's contact information on your department's website or in your student portal.", "If you can't meet with your level adviser during their office hours, you can try contacting them to schedule an appointment at a different time. You can also reach out to your academic advisor or department head for assistance.", "If you feel that your level adviser is not a good fit for you, you may be able to request a switch by contacting your academic advisor or department head.", "Please proceed to your Level adviser’s office during designated advising hours for one-on-one sessions with your adviser."]
+    },
+    {"tag": "Result issue",
+    "patterns": ["I was given a wrong grade on a course","What is the right way to follow up on a failed course?", "My results need to be corrected","wrong result", "What do I do if  I want to challenge my results?", "How can I report an inaccurate result", "There is a problem with my result"],
+    "responses": ["Please reach out directly to the Exam officer for your department regarding any grade related issues", "You will need to take the necessary steps to complete the coursework in the next semester or academic year. You should consult with your Level advisor to discuss your options, including registering for the course for the next semester, arranging for an independent study, or finding alternative ways to fulfil the credit requirements. It's important to address the carryover as soon as possible to stay on track for graduation.", "Please reach out to your departmental exam officer with regards to any complaints on results.", "Kindly note that all results are thoroughly reviewed and verified for accuracy before being released to students. If you believe there has been an error, please gather all relevant information and evidence to support your claim, and present it to the Exam officer.", "You may also request to review your exam paper to ensure that the grading was done correctly. This request must be made within a specified period after the results have been released, and you may be required to pay a fee for this service.", "In extreme cases where you believe that your results were tampered with, or there was gross negligence on the part of the examiners, you may escalate the matter to the appropriate authorities for further investigation."]
+    },
+    {"tag": "departmental due",
+    "patterns": ["How can I pay for my departmental dues","where do i pay my due","What is the deadline for paying departmental dues?"],
+    "responses": ["Departmental Dues are paid into each department’s Microfinance bank account. Please visit your departmental association’s office for payment details.","The deadline for payment of departmental dues varies across departments. Please visit your departmental association’s office to find out the deadline for your department."]
+    },
+    {"tag": "exam officer",
+    "patterns": ["How can I reach my exam officer", "Where is the exam officer's office located?", "I need to speak with my exam officer"],
+    "responses": ["You may reach your exam officer in the exam officer’s office for your department. Further information can be gotten on direction from your Class Representative.", "The exam officer's office is located within your department. Please ask your Class Representative or check your department's notice board for more information.", "To speak with your exam officer, you may visit the exam officer's office during their office hours or schedule an appointment through email or phone."]
+    },
+    {"tag": "submit course registration",
+    "patterns": ["How do I submit my course registration", "Where do I submit my course registration", "What is the process for submitting course registration"],
+    "responses": ["Courses registered on the E-portal platform according to the recommendations of your Level Adviser are to be printed and submitted to your adviser’s office for validation."]
+    },
+    {"tag": "8/6/6",
+    "patterns": ["What is 8/6/6","What happens if I don't meet the 8/6/6 requirement?","How important is the 8/6/6 requirement?","What courses count towards the 8/6/6 requirement?"],
+    "responses": ["This is the University’s Academic policy for New Engineering students on campus. New Students in the engineering Faculty must at the end of their first year have passed 8 credits of Mathematics, 6 credits of Physics and 6 Credits of Chemistry to remain, Bonafede members of the faculty else, they are transferred to other faculties.","If you don't meet the 8/6/6 requirement, you may be transferred to another faculty that is more aligned with your academic performance. The 8/6/6 requirement is very important as it serves as a benchmark for academic performance and readiness for the engineering program. Courses that count towards the 8/6/6 requirement are Mathematics, Physics, and Chemistry."]
+    },
+    {"tag": "10/8/8",
+    "patterns": ["What is 10/8/8","What happens if I don't meet the 10/8/8 requirement?","How important is the 10/8/ requirement?","What courses count towards the 10/8/8 requirement?"],
+    "responses": ["This was the University’s Academic policy for New Engineering students on campus before the introduction of the 8/6/6. New Students in the engineering Faculty then were required at the end of their first year to have passed 10 credits of Mathematics, 8 credits of Physics and 8 Credits of Chemistry to remain, Bonafede members of the faculty else, they are transferred to other faculties.","If you didn't meet the 10/8/8 requirement, you were transferred to other faculties that were more aligned with your academic performance. The 10/8/8 requirement was very important as it served as a benchmark for academic performance and readiness for the engineering program. Courses that counted towards the 10/8/8 requirement are Mathematics, Physics, and Chemistry."]
+    },
+    {"tag": "school fees",
+    "patterns": ["I want to pay my school fees ", "How do I pay my school fees", "What are the payment options for school fees?", "Can I pay my school fees in installments?"],
+    "responses": ["School fee payment can be made through the university’s E-Portal.", "You can only pay your school fees on your student E-Portal.", "No, You cannont pay school fees on installments."]
+    },
+    {"tag": "CGPA calculation",
+    "patterns": ["How do you calculate your CGPA", "How do i calculate my CGPA", "What is CGPA and how is it calculated?", "Can you explain how CGPA is calculated?", "What are the steps to calculate CGPA?", "Can I calculate my CGPA using my percentage?", "How to convert percentage into CGPA?", "What is the formula to convert percentage into CGPA?", "How important is CGPA?", "What is the significance of CGPA?", "What does CGPA signify?"],
+    "responses": ["CGPA stands for Cumulative Grade Point Average and is a measure of a student's overall academic performance. To calculate your CGPA, you need to: Assign grade points to each letter grade you received (A=5, B=4, C=3, D=2, E=1, F=0); Multiply the grade points by the number of credits for each course then add up the grade points for all courses to find the total grade points. Finally, divide the total grade points by the total number of credits to find your CGPA. CGPA is an important metric used by educational institutions and potential employers to evaluate a student's academic performance. It is often used as an indicator of a student's overall knowledge, skills, and work ethic. A high CGPA can increase your chances of getting into a good college or landing a good job, while a low CGPA may limit your opportunities."]
+    },
+    {"tag": "credit unit",
+    "patterns": ["What is a credit unit", "What does credit unit mean", "How is credit unit calculated"],
+    "responses": ["A credit unit in a university is a unit of measurement for a student's coursework, typically representing one hour of class time. The number of credit units assigned to a course depends on factors such as the number of hours of lecture or lab time per week, the amount of outside work required, and the level of difficulty of the material. In general, the more hours spent on a course per week, the higher the number of credit units assigned to it. To calculate your total credit units for a semester or academic year, you add up the credit units assigned to each course you took."]
+    },
+    {"tag": "GPA",
+    "patterns": ["What is semestrial GPA", "What is GPA", "How is GPA calculated"],
+    "responses": ["GPA stands for Grade Point Average, which is a measure of a student's academic performance over a given period of time, such as a semester or academic year. Semestrial GPA refers to the GPA for one semester of coursework. To calculate your semestrial GPA, you need to assign grade points to each letter grade you received (A=4, B=3, C=2, D=1, F=0), multiply the grade points by the number of credit units for each course, then add up the grade points for all courses and divide by the total number of credit units taken. The resulting number is your GPA for that semester. Your overall GPA is calculated in a similar way, but takes into account all coursework completed to date."]
+    },
+    {"tag": "Green file",
+    "patterns": ["Where do I submit my green file", "What is a green file", "What documents should be included in a green file"],
+    "responses": ["A green file is a student's academic record that includes their transcript, course registration information, and any other relevant academic documents. The specific contents of a green file may vary depending on the department. Green files are submitted to your Level Adviser in his or her office. Your Level Adviser will provide guidance on the specific documents that should be included in your green file and the submission process."]
+    },
+    {"tag": "ID card",
+    "patterns": ["How do I get my ID card", "Where can I get my ID card", "What do I need to get my ID card"],
+    "responses": ["To get your ID card, you should visit the Student Affairs office located on the first floor of the University's sports complex. You will need to provide some form of identification, such as proof of school fees payment."]
+    },
+    {"tag": "Lost ID card",
+    "patterns": ["What to do if I lose my ID card", "How do I replace a lost ID card", "What is the procedure for a lost ID card"],
+    "responses": ["If you lose your ID card, the first thing you should do is visit the university's security unit and report it as missing. They will give you further instructions on the steps to take to recover your card, such as filling out a lost ID card form and paying a replacement fee. Once you have completed the necessary steps, your new ID card will be issued to you.", "Losing your ID card can be stressful, but don't worry. The first step is to visit the university's security unit and report it as missing. They will provide you with instructions on the necessary steps to take to recover your card. This may include filling out a lost ID card form, paying a replacement fee, and submitting a new photograph.", "Misplacing your ID card can be frustrating, but don't panic. The first step is to visit the university's security unit and report it as missing. They will give you instructions on what to do next, which may include filling out a lost ID card form, providing a replacement fee, and submitting a new photograph."]
+    },
+    {"tag": "Clinic",
+    "patterns": ["How do I access the school clinic", "Where is the university clinic located", "What services are provided at the school clinic"],
+    "responses": ["To access the university's clinic, you will need a Clinic Card. If you don't have one, visit the clinic to get one and gain access to free health consultations and check-ups. The clinic is located on campus directly beside the university sport's complex. The clinic provides a wide range of services, such as basic medical care, mental health services, and health education. If you have any health concerns or need medical attention, the clinic is a good place to start.", "You can access the university's clinic with a Clinic Card. If you don't have one, visit the clinic to get one and gain access to free health consultations and check-ups. The clinic is usually located on campus, and you can ask for directions from any staff member or security personnel. The clinic provides various services, including medical care, mental health services, and health education. Whether you have a medical condition or need advice on staying healthy, the clinic can assist you.", "The university's clinic is available to all students and staff members with a Clinic Card. If you don't have one, visit the clinic to get one and gain access to free health consultations and check-ups. The clinic is usually located on campus and provides a wide range of services, such as basic medical care, mental health services, and health education. If you have any health concerns or need medical attention, the clinic is a great resource."]
+    },
+    {"tag": "sick",
+    "patterns": ["I am sick", "i am not feeling fine", "i am not well"],
+    "responses": ["Sorry to hear that you're not feeling well. It's best to visit the university's clinic immediately for medical attention. Make sure you bring your Clinic Card with you. If you don't have one, visit the clinic to get one and gain access to free health consultations and check-ups. Don't delay seeking medical attention, and we wish you a speedy recovery!", "If you're feeling unwell, we advise you to visit the university's clinic as soon as possible for medical attention. Make sure you bring your Clinic Card with you. If you don't have one, visit the clinic to get one and gain access to free health consultations and check-ups. Our medical staff are here to help you feel better, and we hope you recover quickly!", "We're sorry to hear that you're not feeling well. The university's clinic is available to provide you with medical attention. Make sure you bring your Clinic Card with you. If you don't have one, visit the clinic to get one and gain access to free health consultations and check-ups. Our medical team is here to assist you and help you get better. Get well soon!"]
+    },
+    {"tag": "next session",
+    "patterns": ["What courses are we offering next session?"],
+    "responses": ["Next session's courses will be announced by the academic department and can be found in your departmental handbook. Please keep an eye out for any official announcements from the department about course offerings for the upcoming semester.", "The courses that will be offered next semester have not yet been announced. Keep an eye out for official announcements from the academic department about the course offerings for the upcoming semester, and check your departmental handbook for updates.", "The academic department will release the list of courses that will be offered next semester. Keep an eye out for official announcements from the department, and make sure to check your departmental handbook for updates on the course offerings for the upcoming semester."]
+    },
+    {"tag": "IGS",
+    "patterns": ["What does IGS mean?", "What is the meaning of IGS?"],
+    "responses": ["IGS stands for In Good Standing, which means that you do not have any academic or disciplinary issues at the moment.", "In Good Standing (IGS) refers to your academic or disciplinary status, indicating that you are in compliance with the university's rules and regulations. It is a positive status that indicates you are eligible to continue your studies at the university.", "IGS means In Good Standing, which is a term used to indicate that you do not have any academic or disciplinary issues that would prevent you from continuing your studies at the university."]
+    },
+    {"tag": "VC list",
+    "patterns": ["What is the VC list?", "What does it mean to be on the VC list?"],
+    "responses": ["The VC list refers to the Vice Chancellor's list of students who have achieved academic excellence and maintained a high CGPA (above 4.5) in the previous academic session. Students on the VC list may receive honorariums and recognition from the university.", "Being on the VC list means that you have achieved academic excellence and maintained a high CGPA (above 4.5) in the previous academic session. It is a prestigious recognition from the university and may come with honorariums and other benefits.", "The VC list is a list of students who have excelled academically and maintained a high CGPA (typically above 4.5) in the previous academic session. Being on the VC list is a prestigious recognition from the university and may come with honorariums and other benefits."]
+    },
+    {"tag": "Dean's list",
+    "patterns": ["What does the dean list mean (DL)?", "What is the Dean's list?", "How does one get on the Dean's list?", "What is the criteria for making the Dean's list?", "Can you explain the Dean's list to me?"],
+    "responses": ["Students with a grade point average (GPA) of 4.0 – 4.5 are added to their respective Dean’s list of students for recognition of their academic accomplishments.", "The Dean's list is a prestigious academic recognition awarded to students who have achieved a high level of academic excellence.", "To get on the Dean's list, students need to maintain a high GPA and meet the specific criteria set by their college or university.", "The criteria for making the Dean's list varies by institution, but generally students need to achieve a certain GPA, complete a minimum number of credits, and have no failing grades or incompletes.", "The Dean's list is a way for colleges and universities to recognize students who have demonstrated exceptional academic achievement during a specific period of time."]
+    },
+    {"tag": "SWEP",
+    "patterns": ["What is SWEP?", "when do SWEP program begins?", "Do i need to go home and come back prepared for the SWEP?", "How do I apply for the SWEP program?", "What are the benefits of participating in the SWEP program?", "Is the SWEP program mandatory for all 200-level students?"],
+    "responses": ["SWEP means Student Work Experience Program. It is a 10-week program for 200-level students designed to provide students with practical work experience in their field of study. The goal of the program is to help students gain hands-on, real-world experience in their chosen field, while also helping to prepare them for careers after graduation.",  "SWEP program usually begins few weeks after second-semester exams.", "Going home is totally a personal choice. If you want to go, you can. However, you must be back upon commencement of the program.", "There is no application required however for the SWEP program, students need to check with their respective departments for fees that are to be paid for the program.",  "Participating in the SWEP program can have many benefits, such as gaining practical work experience, developing new skills, networking with professionals in your field, and enhancing your resume for future job opportunities.",  "The SWEP program is mandatory for all 200-level students."] 
+    },
+    {"tag": "WiFi",
+    "patterns": ["Where can I get the WiFi password", "How do I get wifi login details?", "What is the name of the WiFi network on campus?", "Is there a limit to the amount of data I can use on the WiFi network?"],
+    "responses": ["WiFi login details are provided by the university’s Information Technology Service (ITS). Please visit the ITS and request your Internet login details.", "The name of the WiFi network on campus is usually provided by the ITS or displayed on signs around campus. If you can't find it, ask a staff member or ITS representative.", "If you are experiencing problems with your WiFi connection, you can try restarting your device, checking your login details, or contacting the ITS for assistance.", "If you are using the university's WiFi network, there may be a limit to the amount of data you can use. You can check with the ITS or your department for information on data usage limits and policies."] 
+    },
+    {"tag": "Library",
+    "patterns": ["When does the library open?", "What time does the library close?", "What services are provided by the library?", "How do I borrow books from the library?", "Is the library open on weekends?"],
+    "responses": ["The university Library opens up at 9 AM Monday through Friday.", "The library typically closes around 6 PM, but hours may vary depending on the day and time of year. Please check the library website or contact the library for more information.", "The library provides a variety of services, including book lending, reference and research assistance, computer access and study spaces.", "To borrow books from the library, you will need to have a valid library card or student ID. You can then search the library catalog for available books and check them out at the circulation desk.", "The library may have different hours on weekends or during holidays. Please check the library website or contact the library for more information."] 
+    },
+    {"tag": "access library",
+    "patterns": ["What do I need to access the library?", "Can I use the library if I'm not a student?", "What are the library's opening hours during holidays?"],
+    "responses": ["You only need your student ID card to access the library.", "The library is primarily for use by students and faculty, but members of the public may be able to use some library services, such as reference assistance or on-site access to materials. Please contact the library for more information.", "The library may have reduced hours or be closed during holidays or breaks. Please check the library website or contact the library for more information."] 
+    },
+    {"tag": "SUG",
+    "patterns": ["How can I reach the SUG government?", "How do I join SUG?", "What does SUG stand for?", "What are the benefits of joining SUG?", "How often are SUG elections held?"],
+    "responses": ["You can reach out to the existing leadership of the SUG for information on how to contact them or join the student government.", "To join SUG, you may need to participate in elections or apply for a position when positions are open. Contact the SUG office or public relations officer for more information.", "SUG stands for Student Union Government.", "Joining SUG can provide opportunities for leadership, personal development, and community engagement. Members may also be involved in planning and organizing events and activities on campus.", "SUG elections are typically held annually. Please check with the SUG office or the university administration for more information."] 
+    },
+    {"tag": "bosso to gk",
+    "patterns": ["What is the best way to get from one campus to the other?", "Are there any other means of transportation between the campuses?", "How much does it cost to use the university shuttle between campuses?"],
+    "responses": ["The university operates affordable Bus shuttles between campuses running on weekdays Monday through Friday.", "There may be other transportation options such as keke-napep also known as tricycles or private buses, but the university shuttle is the most convenient and cost-effective option.", "The cost of using the university shuttle between campuses is typically betweeen 200-300 naira. Please check with the university administration or transportation office for more information."] 
+    },
+    {"tag": "food",
+    "patterns": ["Where do students go to buy food?", "I want to buy food", "Let me go get food", "What food options are available on campus?"],
+    "responses": ["Meals can be bought from restaurants and cafeterias scattered across campus.", "Great! There are many food options available on campus, ranging from fast food to healthy meals.", "Sure, take your time. You can find food options at various locations on campus, including cafeterias and restaurants.", "There are various food options available on campus, including fast food, sit-down restaurants, and healthy meal options."] 
+    },
+    {"tag": "Restaurant",
+    "patterns": ["What restaurants are available near GK? What do they serve?", "What restaurants are near Bosso? What do they serve?", "Can you recommend any good restaurants near the university?", "Where can I find fast food near the campus?"],
+    "responses": ["Chicken republic, Dominos and Iya Femi are restaurants close to the Bosso Campus.", "ASSADEL, UNIQUE AND DELIGHT are some of the restaurants available for meals near Gidan Kwanu", "Yes, there are many good restaurants near the university. Some of the popular ones include Chicken Republic, Mr Biggs, and Tastee Fried Chicken.", "There are many fast food options available near the campus. You can also check out street vendors for quick meals."] 
+    },
+    {"tag": "Vote",
+    "patterns": ["I keep getting asked to vote for so and so.", "Why should I participate in the student government?", "How can I vote for the student government?", "When are the student government elections held?"],
+    "responses": ["Voting for student government is an important way to have your voice heard and to help shape the future of the university.", "You should participate in student government to have a voice in important decisions and to shape the university experience for yourself and others. Additionally, participating in student government can help you develop valuable leadership skills and improve your resume for future career opportunities.", "To vote for the student government, you must be a registered student and have a valid student ID. Voting usually takes place online, and you will receive instructions on how to vote via email.", "Student government elections are typically held once a year, usually in the spring semester. Check with your student government or university website for specific dates and information."] 
+    },
+    {"tag": "Carryover",
+    "patterns": ["What are carryovers?", "Can you explain the concept of carryovers in academics?", "How do carryovers affect a student's academic progress?", "What happens to carryover courses if a student changes their major?", "Are there any limitations on the number of carryovers a student can have?"],
+    "responses": ["Carryovers refer to credit hours or courses that a student has not yet completed or failed but still needs to take to fulfill degree requirements. These carryovers are usually transferred to the next academic year or semester, hence the term 'carryover.'", "Carryovers can affect a student's academic progress as they delay the completion of degree requirements. Students are advised to complete carryover courses as soon as possible to avoid accumulation and potential complications.", "If a student changes their department, their carryover courses may or may not be applicable to the new department's degree requirements. It depends on the specific courses and the new department's curriculum. You should consult with your academic advisor to determine the applicability of the carryover courses.", "In most cases, there is a limit on the number of carryovers a student can have. Please refer to the institution's academic policies to determine their carryover limits."]
+    },
+    {"tag": "probation",
+    "patterns": ["What does it mean to be on probation?", "How does a student end up on probation?", "What happens if a student is on probation for multiple semesters?"],
+    "responses": ["Being on probation means that a student is not meeting the academic standards set by the university. Probation is a warning status that signals the student to improve their academic performance or face more serious consequences, such as suspension or dismissal from the university.", "A student may end up on probation if they fail to meet the minimum GPA requirement or if they receive multiple grades below a certain threshold.", "If a student remains on probation for multiple semesters, they will face more serious consequences, such as dismissal from the university. It's important for students on probation to work closely with their academic advisors and professors to improve their academic performance and get back on track."]
+    },
+    {"tag": "Repeat level",
+    "patterns": ["Can I repeat a level like in secondary school?", "What happens if I fail a course or level?", "Is it possible to redo a course or level in university?"],
+    "responses": ["In university, you typically cannot repeat a level or year as you can in secondary school. However, if you are struggling with your courses, you may be allowed to retake certain exams. In special cases provisions may be made to repeat a level however this is on special cases.", "If you fail a course or level, you will generally need to retake the course or level the next time it is offered.", "While it is not possible to redo a level in the same way as in secondary school."]
+    },
+    {"tag": "change department",
+    "patterns": ["How possible is it to switch majors in your first year?", "Can I change my major before completing my first year?", "What is the process for changing majors?"],
+    "responses": ["Department change can only be made after 100 level and only at the university’s recommendation.", "It may be possible to change your major before completing your first year. You should speak with your level advisor for more information.", "The process for changing majors can vary by department. In general, you will need to meet with your level advisor to discuss your options and the requirements for the new major."]
+    },
+    {"tag": "major",
+    "patterns": ["Is it possible to do a Major (Program/Course) and Minor (program/Course) while on Campus?", "Can I enroll in multiple degree programs or majors?", "What are the options for combining programs or majors?"],
+    "responses": ["No. FUTMINNA allows for only a single degree enrollment at a time.", "FUTMINNA does not allow students to enroll in multiple degree programs or majors simultaneously", "While you cannot enroll in multiple degree programs or majors, you may have the option to change departments if you do not meet your current major's academic requirements after 100 level."]
+    },
+    {"tag": "Excursions",
+    "patterns": ["Do students go on excursions to University?","Are excursions a part of the university experience?","Can students participate in excursions organized by the university?"],
+    "responses": ["Yes, excursions may be organized by individual departments and faculties for students at a cost.", "While excursions are not a mandatory part of the university experience, many departments and faculties organize trips and outings as a way to enhance students' learning and expose them to new experiences. These may include field trips, cultural outings, or industry visits.", "If you are interested in participating in excursions organized by the university, you should contact your department or faculty for more information. Some departments may have specific excursions or trips that are required as part of the curriculum, while others may offer optional outings for interested students."]
+    },
+    {"tag": "fee issue",
+    "patterns": ["My school fee payment didn't go through", "I'm having issues with my school fee payment", "What should I do if my school fee payment fails?"],
+    "responses": ["Please reach out via mail to ITS or visit the ITS office located opposite the university’s library.", "If you are experiencing issues with your school fee payment, you should contact the university's ITS (Information Technology Services) department for assistance. They may be able to help you troubleshoot the issue or provide alternative payment options.", "Don't worry if your school fee payment fails. Contact the university's ITS (Information Technology Services) department via email or in person and they will guide you through the next steps. They may also be able to help you set up a payment plan or explore other options for paying your fees."]
+    },
+    {"tag": "SWEP preparation",
+    "patterns": ["What do you mean by Faculty courses?", "What do you mean by general courses?", "What are the differences between faculty courses and general courses?"],
+    "responses": ["These are courses offered by a faculty for the entire departments within that faculty.", "General courses refer to courses that are required for all students regardless of their major or department. These courses may include subjects like English, Mathematics, and GST.", "The main difference between faculty courses and general courses is that faculty courses are tailored to the specific requirements of a particular department or major, while general courses are designed to provide a broad educational foundation that is applicable to all students. Faculty courses may focus on specialized topics or skills that are specific to a particular field of study, while general courses tend to be more broad-based in their scope and application."]
+    },
+    {"tag": "Hardwork",
+    "patterns": ["I got moved to another department. How do I cope?", "I'm struggling with the courses in my new department. What should I do?", "How can I adjust to the academic requirements of my new department?"],
+    "responses": ["You will cope; you just need to be more studious and hardworking in your academics. Also, reach out to your Level Adviser if you need additional help.", "If you are struggling with the courses in your new department, it's important to reach out for help. Consider talking to your level adviser, course lecturers, or classmates for support. You may also want to consider joining a study group or seeking additional tutoring services to help you adjust to the academic requirements of your new faculty.", "Adjusting to the academic requirements of a new faculty can be challenging, but it's important to stay focused and motivated. Try to stay organized, manage your time effectively, and set realistic goals for yourself. Additionally, seek out support from your level adviser, course lecturers, and classmates, and take advantage of any academic resources that are available to you, such as tutoring or study groups."]
+    },
+    {"tag": "Carryover solution",
+    "patterns": ["I got a carryover. How do I handle it?", "What should I do if I have a carryover?", "How can I make up for a course I failed?"],
+    "responses": ["You will need to take the necessary steps to complete the coursework in the next academic year. You should consult with your Level advisor to discuss your options, including scheduling the course for the next semester, arranging for an independent study, or finding alternative ways to fulfil the credit requirements. It's important to address the carryover as soon as possible to stay on track for graduation.", "Don't panic, carryovers happen to the best of students. The key is to take immediate action. Discuss your options with your Level Adviser, take the course again when it's offered and be more diligent in your studies.", "Firstly, don't give up. A carryover doesn't define your academic future. Speak to your Level Adviser on how best to address the situation, create a study plan, and work hard to stay on track with your coursework."]
+    },
+    {"tag": "Not CBT",
+    "patterns": ["What are the etiquettes for handwritten tests and exams?", "How should I behave during handwritten tests and exams?", "What are the dos and don'ts of handwritten tests and exams?"],
+    "responses": ["Here are some etiquettes for handwritten tests and exams. Write legibly to ensure that the examiner can read your answers. Avoid exam malpractice, such as copying or cheating and remember to stay calm and focused during the exam."]
+    },
+    {"tag": "Tutorials",
+    "patterns": ["I’m thinking of extracurricular activities. How do I join a school club or student body?", "What are some of the extracurricular activities I can participate in on campus?"],
+    "responses": ["Most organizations and clubs or societies have a sign-up process; after deciding on the club to join, ensure you follow their sign-up procedure.", "There are many extracurricular activities you can participate in on campus, including sports, music, theater, debate, and community service. Check the university's website or bulletin board for more information on the various clubs and organizations available."]
+    },
+    {"tag": "SUG Criteria",
+    "patterns": ["Criterials for joining SUG", "what do i need to join SUG", "How can I become an SUG member?"],
+    "responses": ["To become an SUG member, you must meet certain criteria, such as being in good academic standing and having an interest in serving your fellow students. You can purchase the role's form from the associated existing management and follow the guidelines provided. Additionally, you will need to participate in the election process, which is usually held towards the end of the academic session."]
+    },
+    {"tag": "Good CGPA",
+    "patterns": ["How can I improve my CGPA?", "What should I do to increase my GPA?", "How do I achieve good grades in university?"],
+    "responses": ["To improve your CGPA, you need to focus on your studies by attending classes regularly, participating in discussions, completing assignments on time, and studying consistently. Additionally, seek help from your professors and academic advisors, join study groups, and take advantage of academic resources such as the library, writing center, and tutoring services.", "To increase your GPA, you need to identify your weak areas and work on them, set realistic study goals, and manage your time effectively. Also, participate in class activities, seek guidance from your professors and academic advisors, and stay organized and disciplined in your studies.", "To achieve good grades in university, you need to stay committed to your studies by attending classes, taking good notes, completing assignments on time, and studying regularly. Additionally, seek help from your professors and peers, join study groups, and take advantage of academic resources such as the library, writing center, and tutoring services."]
+    },
+    {"tag": "Departmental course",
+    "patterns": ["What are departmental courses?", "What does it mean to take a departmental course?"],
+    "responses": ["Departmental courses are courses that are specific to a particular department within the university. These courses are usually required for students within that department and are designed to provide a more focused education in a particular area of study."]
+    },
+    {"tag": "Prerequisite course",
+    "patterns": ["What are prerequisite courses?", "Do I need to take prerequisite courses?", "How do prerequisite courses work?", "Can I skip prerequisite courses?", "What happens if I don't take a prerequisite course?"],
+    "responses": ["Prerequisite courses are courses that you must complete before enrolling in a more advanced course. They are designed to ensure that you have the necessary knowledge and skills to succeed in the higher-level course.", "Skipping prerequisite courses is generally not recommended, as it can lead to difficulties in understanding the higher-level material. If you are unable to take a prerequisite course, speak to your academic advisor for alternative options."]
+    },
+    {"tag": "Transcript",
+    "patterns": ["Can I request my transcript before the school's official issuance?", "How can I get my transcript?", "Is it possible to request my transcript directly from my department?"],
+    "responses": ["Yes, you can request your transcript before the school's official issuance. You can usually request your transcript through your department or by contacting the university's registrar office. Make sure to follow the necessary steps and provide all required information to avoid any delays in processing your request."]
+    },
+    {"tag": "Electives",
+    "patterns": ["Can I take courses outside of my major?", "What are elective courses?", "What are the benefits of taking an elective course?"],
+      "responses": ["Elective courses are courses that you can choose to take based on your interests or academic needs. They allow you to broaden your knowledge in areas beyond your major.", "Yes, you can take courses outside of your major as elective courses. They can help you to explore other areas of interest or to develop skills that can be valuable in your career. Electives can also help to broaden your knowledge and perspective."]
+    },
+    {"tag": "IT issues",
+      "patterns": ["Why can't I go on industrial training with my colleagues?", "I need a place for my Internship/IT", "What are the requirements to go for IT?"],
+      "responses": ["You may not be able to go for IT with your colleagues if you have more than 16 credit units of carryover outstanding.", "You can check with the school's career center or department for available internship opportunities or approach companies and organizations related to your field for possible openings.", "To be eligible for industrial training, you must have completed at least 400 level first semester and have no more than 16 units of outstanding carryover courses."]
+    },
+    {"tag": "Repeat IT",
+    "patterns": ["Can I repeat industrial training (IT)?", "Can I fail IT?", "What will happen if I don't participate in industrial training?"],
+    "responses": ["Yes, it is possible to repeat industrial training(IT) if it was unsuccessful in the previous attempt.", "Yes, it is possible to fail IT.", "If you don't participate in industrial training, you will not meet the requirements for graduation." ,"It is possible to repeat IT where it has been determined that your previous IT did not meet the bare minimum required of the Industrial Training program."]
+    },
+    {"tag": "Project supervisor",
+    "patterns": ["Can I change my project supervisor?", "I don't get along with my project supervisor. Can I switch to a new one?"],
+    "responses": ["A change of project supervisor is possible in special cases, but it is subject to the approval of the Department's Project Coordinator. You will need to provide a valid reason for the change, and the department will decide if the request will be granted."]
+    },
+    {"tag": "Project Topic",
+    "patterns": ["How can choose a project that aligns with my career goals?", "I need guidance on picking a good project title", "Can I pick a project topic?", "What are some tips for selecting a good project topic?"],
+    "responses": ["Choose a project topic that aligns with your interests, skills, and career goals. Research current industry trends and explore areas where you can make a unique contribution.", "Yes, you can choose a project topic based on your interests and skills, but it must be approved by your project supervisor.", "You can make your research for suitable project topics by reading papers related to your course and reviewing existing works for inspiration and opportunities for advancing existing projects. Also, do well to speak with your project supervisor for guidance.", "Some tips for selecting a good project topic include: choosing a topic that aligns with your interests and career goals, researching current industry trends, reviewing existing works for inspiration, and seeking guidance from your project supervisor."]
+    },
+    {"tag": "Fail Final Year",
+    "patterns": ["What happens if I fail just one course in my final year?", "Can I still graduate if I fail one course in my final year?", "What are the consequences of failing a course in my final year?"],
+    "responses": ["Depending on the university’s current policy and discretion, a single failed course may be ‘waived’. Please reach out to your exam officer or level adviser for more information.", "The requirements for graduation vary depending on the program and institution, but typically you need to pass all courses required for your degree. If you fail one course, you may need to retake it in order to fulfill the graduation requirements.", "Failing a course in your final year can delay your graduation, and may require you to retake the failed course. It is important to communicate with your academic advisor to understand your options and develop a plan for how to move forward."]
+    },
+    {"tag": "Health issue",
+    "patterns": ["What should I do if miss an exam due to my health?", "Is there a make-up exam for students who miss an exam due to health reasons?"],
+    "responses": ["Reach out to your level adviser with a doctor’s report and inform him/her of the fact that you missed an exam. Provisions may be made on your behalf on a case-by-case basis.", "There may be a make-up exam for students who miss an exam due to health reasons. It's best to contact your level adviser or exam officer immediately."]
+    },
+    {"tag": "current level",
+    "patterns": ["What do I need to know about my current level?", "What should I be focusing on at my current level?"],
+    "responses": ["At your current level, it is important to keep track of your academic progress, review your coursework regularly, and seek out additional resources such as tutoring or academic support services if needed. You should also start considering your future career goals and exploring opportunities to gain experience in your field of study through internships, research, or other relevant activities."]
+    },
+    {"tag": "Calender",
+    "patterns": ["Can you help me understand the academic calendar?","Any advice on my current academic performance?","How can I get support for academic or personal difficulties?", "When does the semester begin?", "When does the semester end?", "When are the holidays during the semester?"],
+    "responses": ["Please schedule an appointment with the Level adviser to get more in-depth on your current academic standing and personalized suggestions", "I am sad to hear that you are having difficulties; please schedule a session with the level adviser to see how we can sort out your difficulties.","The academic calendar suggests that there will be between 10-14 weeks of lectures and exams afterwards; however, within the lecture duration, tests and quizzes will take place.", "The semester usually begins in the first or second week of September.", "The semester usually ends in the third or fourth week of June.", "There are usually breaks for Christmas, Easter, and sometimes other holidays. The exact dates are usually published in the academic calendar."]
+    },
+    {
+      "tag": "Graduate Opportunities",
+      "patterns": ["I need information on graduate opportunities", "What are my options after graduation?", "What can I do with my degree after graduation?"],
+      "responses": ["There are several opportunities available after graduation, including postgraduate degrees, internships, and job placements. You can speak to your level adviser for guidance on available opportunities and how to maximize them.", "Your options after graduation are varied and depend on your interests, skills, and qualifications. You can explore opportunities in academia, industry, entrepreneurship, or public service.", "With your degree, you can pursue further education or explore employment opportunities in your field of study. You can also leverage your skills and experience to create new opportunities for yourself."]
+    },
+    {"tag": "Part-time",
+    "patterns": ["Are there any opportunities for part-time or on-campus employment?", "Can I work part-time while studying?"],
+    "responses": ["There are a few opportunities for part-time employment, but they are usually off-campus. You can look for jobs online to find part-time work. Just make sure to balance your work and study schedules appropriately to avoid burnout or poor academic performance."]
+    },
+    {"tag": "GYM",
+    "patterns": ["How do I access the gym on campus?", "Is the gym free for students?", "What are the gym hours?"],
+    "responses": ["To access the gym, you are expected to register at the sports complex on your interest in using the gym facilities. There may be a small fee for students. The gym hours vary depending on the day, so be sure to check the gym schedule or contact the sports complex for more information."]
+    },
+    {"tag": "Student connect",
+    "patterns": ["How do I join an association on campus?","How do I connect with other students on campus?"],
+    "responses": ["To join an association on campus, research available options that align with your interests, attend informational meetings and events, and complete the required membership forms and fees. Building relationships with current members and participating in events and activities can help you fully engage with the organization and make the most of your membership.", "Join student organizations and clubs that align with your interests, attend campus events and activities, and participate in online groups or forums related to your major or interests to connect with other students on campus. Networking can also help you build lasting relationships and professional connections.", "Another way to connect with other students on campus is by participating in group projects and studying in groups. This can not only help you make new friends but also improve your academic performance."]
+    },
+    {"tag": "Leadership",
+    "patterns": ["How do I apply for leadership positions on campus?","Can you provide information on the university's policies and procedures related to academic integrity?","What leadership positions are available on campus?"],
+    "responses": ["To apply for leadership positions on campus, research the available opportunities and their requirements, prepare a strong application, and attend informational meetings or events to learn more about the position and organization.","The university has policies and procedures in place to ensure academic integrity and to prevent academic misconduct, such as plagiarism, cheating, and fabrication. These policies are outlined in the university's student handbook and can also be obtained from the academic affairs or student affairs office. All students are expected to adhere to these policies to maintain the university's standards of academic excellence.","There are various leadership positions available on campus, including student government, campus organizations, and academic clubs. You can learn more about these opportunities by attending meetings and events, speaking with current leaders, and reviewing the available resources on campus."]
+    },
+    {"tag": "Accomodation",
+    "patterns": ["How do I get a lodge off campus?", "What factors should I consider before renting an off-campus accommodation?"],
+    "responses": ["To get a lodge off campus, start by researching available options in the vicinity, visit the lodges in person to assess their condition, and negotiate the terms and conditions with the landlord or property manager. Consider factors such as proximity to campus, cost, security, availability of amenities such as transportation, laundry facilities, and grocery stores before making a decision." , "Before renting an off-campus accommodation, consider factors such as proximity to campus, cost, security, availability of amenities such as transportation, laundry facilities, and grocery stores, and the reputation of the landlord or property manager. It is also important to read the lease agreement carefully and ask any questions before signing."]
+    },
+    {"tag": "Therapy",
+    "patterns": ["I am feeling overwhelmed and I need someone to talk to", "What mental health resources are available to me as a student?", "How can I access counseling services on campus?"],
+    "responses": ["You are encouraged to visit the student health services to speak with a mental health professional for support and resources.", "The university offers various mental health resources including confidential counseling services and support groups. Contact the student health services to find out more.", "To access counseling services on campus, contact the student health services to schedule an appointment with a mental health professional. You may also be able to access online resources and support services for mental health and well-being. Confidentiality and privacy are maintained in accordance with the university's policies and regulations."]
+    },
+    {"tag": "Disabilities",
+    "patterns": ["Is there any support for students with disabilities?", "How can I get assistance if I have a disability?"],
+    "responses": ["Yes, the university has a disability services office that provides support for students with disabilities. Contact the office to schedule an appointment and discuss your needs."]
+    },
+    {"tag": "Tutorials",
+    "patterns": ["How do I join a school club or student body?", "What are some extracurricular activities I can get involved in on campus?"],
+    "responses": ["To join a school club or student body, research the available options that align with your interests, attend informational meetings and events, and complete the required membership forms and fees. Building relationships with current members and participating in events and activities can help you fully engage with the organization and make the most of your membership.", "There are many extracurricular activities you can get involved in on campus, such as joining a club, participating in a sports team, volunteering for community service projects, or attending cultural events and lectures. Consider your interests and goals, and explore the available options to find activities that are a good fit for you."]
+    }
+]
+}
